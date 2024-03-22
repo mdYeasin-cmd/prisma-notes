@@ -38,3 +38,13 @@
   - console.dir(variable, { depth: Infinity })
 - In prisma, for work with multiple row, we always use the [] sign
 - We can go indepth relations by using nested inclue property
+
+### Covered topics in Module 24
+
+- Transactions --> A database transaction refers to a sequence of read/write operations that are guaranteed to either succed on fail as a whole
+- In Prisma, Transaction can write in 2 way
+  1. Batch
+  2. Interactive
+- In Prisma, if any funtion begin with $ sign we call that funtion api
+- Prisma can't handle complex queries. For complex query we need to depend on raw SQL
+- npx primsa --> This command use for show all essential commands in prisma
